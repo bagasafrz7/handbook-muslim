@@ -10,7 +10,7 @@
         <Sidebar />
       </div>
       <div class="col-span-9">
-        <Drawer />
+        <Blog />
       </div>
     </div>
   </div>
@@ -19,13 +19,13 @@
 <script>
 import Sidebar from '@/components/sidebar/index.vue'
 import Navbar from '@/components/navbar/index.vue'
-import Drawer from '@/components/drawer/index.vue'
+import Blog from '@/components/blog/index.vue'
 
 export default {
   name: 'Home',
   data() {
     return {
-      title: 'Handbook Muslim | Lorem ipsum dolor todo'
+      title: 'Blog'
     }
   },
   created() {
@@ -34,7 +34,7 @@ export default {
   components: {
     Sidebar,
     Navbar,
-    Drawer
+    Blog
   }
 }
 </script>

@@ -23,14 +23,6 @@ import Drawer from '@/components/drawer/index.vue'
 
 export default {
   name: 'Home',
-  data() {
-    return {
-      title: 'Handbook Muslim | Lorem ipsum dolor todo'
-    }
-  },
-  created() {
-    document.title = this.title
-  },
   components: {
     Sidebar,
     Navbar,
